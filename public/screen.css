@@ -7,9 +7,56 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
-  margin-left: 1em;
+   margin: 0;
 }
 
+img{
+  width: 30%;
+  height: auto;
+}
 
+h2{
+  color: #FF6E90;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  text-shadow: .5px 1px 0 rgb(87, 68, 76);
+  letter-spacing: 2.4px;
+  font-size: 3em;
+}
+
+/* -----Sections */
+nav{
+  min-height: 2em;
+}
+
+header{
+  border-radius: 2px;
+  background-color: pink;
+  padding: 3em;
+  min-height: 50vh;
+
+}
+
+header h1{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ------Custom */
+.gradientBackground{
+  background-image: linear-gradient( to top right, #FF6E90, #FFA4C3, #F7F5DD);
+}
+
+.paragraphSection{
+  margin-left: 3em;
+}
